@@ -1,0 +1,68 @@
+* {
+  font-family: sans-serif;
+}
+nav {
+  height: 10vh;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+.logo {
+  font-size: 2.5rem;
+}
+nav ul {
+  display: flex;
+  width: 50%;
+  justify-content: space-evenly;
+  list-style: none;
+}
+main {
+  height: 85vh;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.button {
+  background-color: rgb(30, 30, 30);
+  width: 80px;
+  border-radius: 20px;
+  height: 40px;
+  position: relative;
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+  transition: all 0.2s ease;
+}
+input[type="checkbox"] {
+  appearance: none;
+}
+#circle {
+  position: absolute;
+  height: 30px;
+  width: 30px;
+  border-radius: 15px;
+  left: 5px;
+  background-color: white;
+  transition: all 0.2s ease;
+}
+.card {
+  height: 60vh;
+  width: 50vw;
+
+  display: flex;
+}
+.image {
+  height: 100%;
+}
+.image img {
+  height: 100%;
+}
+.content {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  flex-wrap: wrap;
+  width: 75%;
+}
